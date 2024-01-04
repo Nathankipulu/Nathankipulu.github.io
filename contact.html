@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Vente ou Location maisons et appartements</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/a980e88be8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section class="header-home">
+        <!-- menu -->
+        <header>
+            <div class="logo-link">
+                <a href="#" class="logo">App Ndaku</a>
+                <div class="menu-link">
+                    <a href="index.html">Accueil</a>
+                    <a href="service.html">Nos services</a>
+                    <a href="nouveautes.html">Nouveautés</a>
+                    <a href="contact.html" class="active">Nous contacter</a>
+                </div>
+            </div>
+
+            <!-- Menu responsive -->
+                <div class="sidebar" id="mySidebar">
+                    <div class="closebtn" onclick="closeNav()">
+                        <img src="assets/images/cross-icon.png">
+                    </div>
+                    <a href="index.html">Accueil</a>
+                    <a href="service.html">Nos services</a>
+                    <a href="nouveautes.html">Nouveautés</a>
+                    <a href="contact.html">Nous contacter</a>
+                    <a href="connexion.html">Se connecter</a>
+                    <a href="inscription.html">S'inscrire</a>
+                </div>
+
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">
+                        <img src="assets/images/menu-bar.png" alt="">
+                    </button>
+                </div>
+            <!-- Menu responsive -->
+
+            <div class="links-buttons">
+                <a href="connexion.html">Se connecter</a>
+                <a href="inscription.html" class="orange-link">S'inscrire</a>
+            </div>
+        </header>
+        <!-- menu -->
+     </section>
+
+     <section class="main">
+        <!-- ======= Header-main ======= -->
+        <div class="header-main">
+            <div class="container">
+                <ol>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li>Contact</li>
+                </ol>
+                <h2>Nous contacter</h2>
+            </div>
+        </div>
+        <!-- Fin Header-main -->
+
+    <!-- Partie Contact -->
+    <section class="contact" id="contact">    
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Votre nom" required>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Adresse mail" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Numéro de téléphone" required>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Objet de mail" required>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Votre message" required></textarea>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Envoyer</button>
+            </div>
+        </form>
+    </section>
+
+
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h3>ImmoApp<span>.</span></h3>
+                <p>
+                    Explore your suitable and dream places around the world. Here you 
+                    can find your right destination.
+                </p>
+                <p class="social__links">
+                    <a href=""><i class="ri-twitter-line"></i></a>
+                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""><i class="ri-linkedin-fill"></i></a>
+                    <a href=""><i class="ri-whatsapp-line"></i></a>
+                </p>
+            </div>
+            <div class="footer__col">
+                <h4>Support</h4>
+                <p>FAQs</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer__col">
+                <h4>Nos Adresses</h4>
+                <p>
+                    <span>Adresse physique:</span> 280 Wilson Street, Cima, California, 92323,
+                    Unitates States
+                </p>
+                <p><span>Email :</span> info@immoapp.com</p>
+                <p><span>Téléphone :</span> +243 81 25 27 026</p>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright &copy; 2023 Tous Droits réservés.Design by Nathan_Kips
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+     <script src="assets/js/script.js"></script>
+</body>
+</html>

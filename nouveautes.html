@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Vente ou Location maisons et appartements</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/a980e88be8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section class="header-home">
+        <!-- menu -->
+        <header>
+            <div class="logo-link">
+                <a href="#" class="logo">App Ndaku</a>
+                <div class="menu-link">
+                    <a href="index.html">Accueil</a>
+                    <a href="service.html">Nos services</a>
+                    <a href="nouveautes.html" class="active">Nouveautés</a>
+                    <a href="contact.html">Nous contacter</a>
+                </div>
+            </div>
+
+            <!-- Menu responsive -->
+                <div class="sidebar" id="mySidebar">
+                    <div class="closebtn" onclick="closeNav()">
+                        <img src="assets/images/cross-icon.png">
+                    </div>
+                    <a href="index.html">Accueil</a>
+                    <a href="service.html">Nos services</a>
+                    <a href="nouveautes.html">Nouveautés</a>
+                    <a href="contact.html">Nous contacter</a>
+                    <a href="connexion.html">Se connecter</a>
+                    <a href="inscription.html">S'inscrire</a>
+                </div>
+
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">
+                        <img src="assets/images/menu-bar.png" alt="">
+                    </button>
+                </div>
+            <!-- Menu responsive -->
+
+            <div class="links-buttons">
+                <a href="connexion.html">Se connecter</a>
+                <a href="inscription.html" class="orange-link">S'inscrire</a>
+            </div>
+        </header>
+        <!-- menu -->
+     </section>
+
+     <section class="main">
+        <!-- ======= Header-main ======= -->
+        <div class="header-main">
+            <div class="container">
+                <ol>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li>Nouveautés</li>
+                </ol>
+                <h2>Nouveautés</h2>
+            </div>
+        </div>
+        <!-- Fin Header-main -->
+
+
+        <section class="trip">
+            <div class="section__trip trip__container">
+                <h2 class="section__title">Nouveautés</h2>
+                <p class="section__subtitle">
+                    A louer
+                </p>
+                <div class="trip__grid">
+                    <div class="trip__card">
+                        <img src="assets/images/58ea40ac68e836c54889bd74e0861dfd189ca723.jpg" alt="trip">
+                        <div class="trip__details">
+                            <p>47 rue des Couronnes</p>
+                            <div class="rating"><i class="ri-star-fill"></i> Limete/Kinshasa</div>
+                            <div class="booking__price">
+                                <div class="price"><span>Pour</span> $300</div>
+                                <button class="book__now">Contacter</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trip__card">
+                        <img src="assets/images/125002499-1591106103.37.jpg" alt="trip">
+                        <div class="trip__details">
+                            <p>Patagonia, Argentina and Chile</p>
+                            <div class="rating"><i class="ri-star-fill"></i> Gombe/Kinshasa</div>
+                            <div class="booking__price">
+                                <div class="price"><span>Pour</span> $450</div>
+                                <button class="book__now">Contacter</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trip__card">
+                        <img src="assets/images/125002499-1591106103.37.jpg" alt="trip">
+                        <div class="trip__details">
+                            <p>The Dolomites, Italy</p>
+                            <div class="rating"><i class="ri-star-fill"></i> Masina/Kinshasa</div>
+                            <div class="booking__price">
+                                <div class="price"><span>Pour</span> $400</div>
+                                <button class="book__now">Contacter</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trip">
+            <div class="section__trip trip__container">
+                <h2 class="section__title">Nouveautés</h2>
+                <p class="section__subtitle">
+                    A vendre
+                </p>
+                <div class="trip__grid">
+                    <div class="trip__card">
+                        <img src="assets/images/58ea40ac68e836c54889bd74e0861dfd189ca723.jpg" alt="trip">
+                        <div class="trip__details">
+                            <p>47 rue des Couronnes</p>
+                            <div class="rating"><i class="ri-star-fill"></i> Limete/Kinshasa</div>
+                            <div class="booking__price">
+                                <div class="price"><span>Pour</span> $300</div>
+                                <button class="book__now">Voir Plus</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trip__card">
+                        <img src="assets/images/125002499-1591106103.37.jpg" alt="trip">
+                        <div class="trip__details">
+                            <p>Patagonia, Argentina and Chile</p>
+                            <div class="rating"><i class="ri-star-fill"></i> Gombe/Kinshasa</div>
+                            <div class="booking__price">
+                                <div class="price"><span>Pour</span> $450</div>
+                                <button class="book__now">Voir Plus</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trip__card">
+                        <img src="assets/images/125002499-1591106103.37.jpg" alt="trip">
+                        <div class="trip__details">
+                            <p>The Dolomites, Italy</p>
+                            <div class="rating"><i class="ri-star-fill"></i> Masina/Kinshasa</div>
+                            <div class="booking__price">
+                                <div class="price"><span>Pour</span> $400</div>
+                                <button class="book__now">Voir Plus</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h3>ImmoApp<span>.</span></h3>
+                <p>
+                    Explore your suitable and dream places around the world. Here you 
+                    can find your right destination.
+                </p>
+                <p class="social__links">
+                    <a href=""><i class="ri-twitter-line"></i></a>
+                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""><i class="ri-linkedin-fill"></i></a>
+                    <a href=""><i class="ri-whatsapp-line"></i></a>
+                </p>
+            </div>
+            <div class="footer__col">
+                <h4>Support</h4>
+                <p>FAQs</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer__col">
+                <h4>Nos Adresses</h4>
+                <p>
+                    <span>Adresse physique:</span> 280 Wilson Street, Cima, California, 92323,
+                    Unitates States
+                </p>
+                <p><span>Email :</span> info@immoapp.com</p>
+                <p><span>Téléphone :</span> +243 81 25 27 026</p>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright &copy; 2023 Tous Droits réservés.Design by Nathan_Kips
+        </div>
+    </footer>
+
+     <script src="assets/js/script.js"></script>
+</body>
+</html>
